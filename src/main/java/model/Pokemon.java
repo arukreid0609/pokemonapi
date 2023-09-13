@@ -11,7 +11,6 @@ public class Pokemon implements Serializable {
 	private String sprite;
 
 	public Pokemon() {}
-
 	
 	public int getId() {
 		return id;

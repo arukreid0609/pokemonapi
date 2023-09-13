@@ -40,7 +40,6 @@ public class PokemonParser {
 			// 名前とテキストの取得
 			this.setSpecies(pokemon, id);
 		}
-
 		return pokemon;
 	}
 
