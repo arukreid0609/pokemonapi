@@ -9,7 +9,7 @@
 <body>
 	<h1>PokeApiを試そう！！</h1>
 	<form action="Main" method="post">
-		図鑑番号を入力:<input type="number" name="id"><br>
+		図鑑番号を入力:<input type="number" name="id" required><br>
 		<input type="submit" value="検索">
 	</form>
 </body>

@@ -12,6 +12,7 @@
 	<% if(pokemon != null){ %>
 		<h1><%=pokemon.getName() %></h1>
 		<div><img src="<%=pokemon.getSprite() %>"></div>
+		<h2>図鑑番号:<%=pokemon.getId() %></h2>
 		<div>
 			高さ:<%=pokemon.getHeight() %>m<br>
 			体重:<%=pokemon.getWeight() %>kg

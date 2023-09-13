@@ -23,6 +23,8 @@ public class PokemonParser {
 		JsonObject root = this.getRoot(urlString);
 		if (root != null) {
 			pokemon = new Pokemon();
+			// 図鑑番号の設定
+			pokemon.setId(id);
 			// 高さ、体重の取得
 			double height = root.get("height").getAsDouble() / 10;
 			double weight = root.get("weight").getAsDouble() / 10;

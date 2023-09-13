@@ -3,6 +3,7 @@ package model;
 import java.io.Serializable;
 
 public class Pokemon implements Serializable {
+	private int id;
 	private String name;
 	private String text;
 	private double weight;
@@ -11,6 +12,13 @@ public class Pokemon implements Serializable {
 
 	public Pokemon() {}
 
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public String getName() {
 		return name;
 	}
